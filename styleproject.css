@@ -2,8 +2,9 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-body {
+.sect {
 }
 .hed {
   width: 100%;
@@ -15,7 +16,6 @@ body {
   margin-top: 7px;
   width: 30%;
   float: left;
-  display: inline-block;
 }
 .c img {
   width: 200px;
@@ -42,8 +42,13 @@ body {
   float: left;
   text-align: center;
 }
+.imp {
+  color: black;
+}
 .bad1 {
   width: 100%;
+  text-align: center;
+  float: left;
 }
 .bad1 img {
   width: 50%;
@@ -52,8 +57,71 @@ body {
   float: left;
 }
 .bad1 h1 {
-  font-size: 50px;
+  margin-top: 86px;
+  font-size: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.My{
-  color: black;
+.bad1 p {
+  font-size: 38px;
+  margin: 20px;
+  padding: 10px;
+  color: gray;
+}
+.b1 {
+  cursor: pointer;
+  width: 350px;
+  height: 64px;
+  padding: 0px 0px 4px 0px;
+  margin: 10px 40px 10px 10px;
+  border-radius: 30px;
+  font-size: 30px;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 2px solid black;
+}
+.b2 {
+  cursor: pointer;
+  width: 180px;
+  height: 71px;
+  border-radius: 30px;
+  font-size: 26px;
+  padding-bottom: 4px;
+  background-color: #a095c9;
+  color: white;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 2px solid white;
+}
+.bad2 {
+  display: inline-block;
+  width: 100%;
+  margin-top: 100px;
+}
+.pp1 {
+  width: 33.35%;
+  display: inline-block;
+}
+.pp1 img {
+  float: left;
+  width: 150px;
+  margin-left: 40px;
+}
+.pp2 {
+  width: 33.33%;
+  display: inline-block;
+  margin-top: 50px;
+}
+.pp2 img {
+  float: left;
+  width: 150px;
+}
+.pp3 {
+  width: 33%;
+  float: right;
+}
+.pp3 img {
+  float: left;
+  width: 150px;
 }
